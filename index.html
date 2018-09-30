@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<title>Music Devices</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"  type="text/css"/>  
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"  type="text/css"/>  
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<!--[if lt IE 9]>
+		<script src="node_modules/html5shiv/src/html5shiv-printshiv.js"></script>
+	<![endif]-->	
+</head>
+<body>
+<div class="page-wrapper">
+  <div class="container">
+  	<h2 class="text-center">Evolution Wireless G4 Configuration Assistant</h2>
+  	<h5 class="text-center click-note">Click the image or the plus/minus icon to add microphones:</h5>
+  	<div class="container">
+  		<div id="instruments">
+  			<div class="pages" id="page-1">
+          <div class='device-tally'>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="tally">
+                  Total: <input class="device-output border border-secondary" type="text" value="0" readonly>
+                </div>
+              </div>
+            </div>          
+          </div>   
+        </div>
+  			<div class="pages" id="page-2">
+          <div class="page-2-types"></div>
+          <div class='types-tally'>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="tally">
+                  Total: <input class="type-output border border-secondary" type="text" value="0" readonly>
+                </div>                      
+              </div>
+            </div>
+          </div>
+        </div>
+  			<div class="pages" id="page-3">
+          <div class="output-image"></div>
+          <table class="table output-table">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Type Name</th>
+                <th>Total</th>
+                <th>Price</th>                  
+              </tr>
+            </thead>
+            <tbody class="output-table-body">
+            </tbody>
+          </table>
+          <div class="row">
+              <div class="offset-sm-11 col-sm-1">
+                  <div class="final-output">
+                      <div>Quantity: <span class="total-quantity"></span></div>
+                      <div>Price: <span class="total-expense"></span></div>
+                  </div>
+              </div>
+          </div>
+          <button class="btn btn-primary print-button"><i class="fas fa-print text-body"></i> Print</button>
+          <button class="btn btn-success save-button"><i class="fas fa-download text-body"></i> Save</button>
+          <button class="btn btn-danger mail-button"><i class="fas fa-envelope text-body"></i> Send Mail</button>
+          <hr>
+        </div>		
+  			<div class="pages" id="page-4">
+          This is page number 4.   
+        </div>
+  		</div>
+  		<div class="row nav-buttons">
+  			<div class="col-sm-12">
+  				<button class="btn btn-warning text-white previous">Previous Step</button>
+  				<button class="btn btn-info next">Next Step</button>
+  			</div>						
+  		</div>
+  	</div>
+  </div>
+</div> <!--page-wrapper end-->
+
+<!-- Scripts -->
+<script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="node_modules/jspdf/dist/jspdf.min.js" type="text/javascript"></script>
+<script src="node_modules/jspdf-autotable/dist/jspdf.plugin.autotable.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

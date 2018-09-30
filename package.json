@@ -1,0 +1,22 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "html5shiv-printshiv.min.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
+    "bootstrap": "^4.1.1",
+    "circular-json": "^0.5.4",
+    "html5shiv": "^3.7.3",
+    "jquery": "^3.3.1",
+    "jspdf": "^1.3.5",
+    "jspdf-autotable": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,94 @@
+[
+	{
+		"id": 1,
+		"name":"Vocal/Handheld Microphone", 
+		"image":"vocal_handheld.png", 
+		"alt":"Handheld microphone",
+		"series": [
+			{"name": "100", "type":
+				[{"name": "1","price": 20, "image": "avatar.png"},
+				{"name": "2","price": 40, "image": "avatar.png"},
+				{"name": "3","price": 60, "image": "avatar.png"}]
+			},
+			{"name": "200", "type":
+				[{"name": "4","price": 20, "image": "avatar.png"},
+				{"name": "5","price": 40, "image": "avatar.png"},
+				{"name": "6","price": 60, "image": "avatar.png"}]
+			},
+			{"name": "300", "type":
+				[{"name": "7","price": 20, "image": "avatar.png"},
+				{"name": "8","price": 40, "image": "avatar.png"},
+				{"name": "9","price": 60, "image": "avatar.png"}]
+			}
+		] 	
+	},
+	{ 
+		"id": 2,
+		"name":"Head Worn Microphone (Beltpack)", 
+		"image":"head_worn.png", 
+		"alt":"Head worn microphone",
+		"series": [
+			{"name": "100", "type":
+				[{"name": "1","price": 20, "image": "avatar.png"},
+				{"name": "2","price": 40, "image": "avatar.png"},
+				{"name": "3","price": 60, "image": "avatar.png"}]
+			},
+			{"name": "200", "type":
+				[{"name": "4","price": 20, "image": "avatar.png"},
+				{"name": "5","price": 40, "image": "avatar.png"},
+				{"name": "6","price": 60, "image": "avatar.png"}]
+			},
+			{"name": "300", "type":
+				[{"name": "7","price": 20, "image": "avatar.png"},
+				{"name": "8","price": 40, "image": "avatar.png"},
+				{"name": "9","price": 60, "image": "avatar.png"}]
+			}
+		] 		
+	},	
+	{
+	 	"id": 3,
+	 	"name":"Lavalier/Body Pack Microphone (Beltpack)", 
+	 	"image":"lavalier.png", 
+	 	"alt":"Lavalier microphone",
+		"series": [
+			{"name": "100", "type":
+				[{"name": "1","price": 20, "image": "avatar.png"},
+				{"name": "2","price": 40, "image": "avatar.png"},
+				{"name": "3","price": 60, "image": "avatar.png"}]
+			},
+			{"name": "200", "type":
+				[{"name": "4","price": 20, "image": "avatar.png"},
+				{"name": "5","price": 40, "image": "avatar.png"},
+				{"name": "6","price": 60, "image": "avatar.png"}]
+			},
+			{"name": "300", "type":
+				[{"name": "7","price": 20, "image": "avatar.png"},
+				{"name": "8","price": 40, "image": "avatar.png"},
+				{"name": "9","price": 60, "image": "avatar.png"}]
+			}
+		] 		
+	},
+	{ 
+		"id": 4,
+		"name":"Instrument/Guitar Microphone", 
+		"image":"instrument.png", 
+		"alt":"Guitar microphone",
+		"series": [
+			{"name": "100", "type":
+				[{"name": "1","price": 20, "image": "avatar.png"},
+				{"name": "2","price": 40, "image": "avatar.png"},
+				{"name": "3","price": 60, "image": "avatar.png"}]
+			},
+			{"name": "200", "type":
+				[{"name": "4","price": 20, "image": "avatar.png"},
+				{"name": "5","price": 40, "image": "avatar.png"},
+				{"name": "6","price": 60, "image": "avatar.png"}]
+			},
+			{"name": "300", "type":
+				[{"name": "7","price": 20, "image": "avatar.png"},
+				{"name": "8","price": 40, "image": "avatar.png"},
+				{"name": "9","price": 60, "image": "avatar.png"}]
+			}
+		] 		 
+	}
+]
